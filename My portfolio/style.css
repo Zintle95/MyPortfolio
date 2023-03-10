@@ -1,0 +1,63 @@
+
+*{
+    margin:0%;
+    padding:0%
+
+}
+/* Navbar */
+
+.navbar-nav{
+    font-size: 18px;
+
+}
+.navbar{
+  position:sticky;
+  z-index:0;
+  top:1;
+}
+body{
+    background-color: black;
+}
+/* button */
+  .btn:hover{
+    color: #358333;
+  }
+
+  /* Progress Bar */
+
+  .progress{
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+  }
+  .progress:hover{
+    transform:scale(1.1);
+  }
+  /* card */
+  .card{
+    background-color: black;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    box-shadow: 2px 5px 15px rgb(185, 185, 62);
+  }
+  .card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  
+/* form */
+
+
+.form-control{
+    background-color: #0a0808;
+    color: #ad4242;
+    border: 1px solid #b5b71c;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 16px;
+  }
